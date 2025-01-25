@@ -20,17 +20,16 @@ const Collaborate = () => {
           {agencies.map((agency) => (
             <div key={agency}>
               <AgencyDisplayBox 
-                id={agency.agencyId}
+                agencyId={agency.agencyId}
                 agencyName={agency.agencyName}
                 headName={agency.headName}
                 headContactNumber={agency.headContactNumber}
                 expertise={agency.expertise}
                 address={agency.address}
-                equipmentRequirements={agency.equipmentRequirements}
+                equipmentDetails={agency.equipmentDetails}
                 workforce={agency.workforce}
                 about={agency.about}
                 emailAddress={agency.emailAddress}
-                password={agency.password}
               />
             </div>
           ))}

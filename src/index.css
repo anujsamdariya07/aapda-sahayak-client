@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.detail-model {
+  width: auto;
+  height: auto;
+  min-height: 20%;
+  min-width: 50%;
+}

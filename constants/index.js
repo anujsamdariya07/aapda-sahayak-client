@@ -6,7 +6,7 @@ export const agencies = [
     headContactNumber: '123-456-7890',
     expertise: 'Construction',
     address: '123 Alpha St, Cityville, ST 12345',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Excavator', quantity: 2 },
       { name: 'Bulldozer', quantity: 1 },
     ],
@@ -33,7 +33,7 @@ export const agencies = [
     headContactNumber: '234-567-8901',
     expertise: 'Landscaping',
     address: '456 Beta Ave, Townsville, ST 23456',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Lawn Mower', quantity: 4 },
       { name: 'Trimmer', quantity: 3 },
     ],
@@ -60,7 +60,7 @@ export const agencies = [
     headContactNumber: '345-678-9012',
     expertise: 'Electrical Services',
     address: '789 Gamma Blvd, Villagetown, ST 34567',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Wire Stripper', quantity: 10 },
       { name: 'Voltage Tester', quantity: 5 },
     ],
@@ -87,7 +87,7 @@ export const agencies = [
     headContactNumber: '456-789-0123',
     expertise: 'Plumbing',
     address: '321 Delta Rd, Cityplace, ST 45678',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Pipe Wrench', quantity: 5 },
       { name: 'Drain Snake', quantity: 2 },
     ],
@@ -114,7 +114,7 @@ export const agencies = [
     headContactNumber: '567-890-1234',
     expertise: 'Roofing',
     address: '654 Epsilon St, Roofville, ST 56789',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Ladder', quantity: 3 },
       { name: 'Roofing Nail Gun', quantity: 2 },
     ],
@@ -137,7 +137,7 @@ export const agencies = [
     headContactNumber: '678-901-2345',
     expertise: 'Painting',
     address: '987 Zeta Ave, Paintsville, ST 67890',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Paint Sprayer', quantity: 3 },
       { name: 'Brush Set', quantity: 10 },
     ],
@@ -164,7 +164,7 @@ export const agencies = [
     headContactNumber: '789-012-3456',
     expertise: 'Cleaning',
     address: '654 Eta St, Clean City, ST 78901',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Vacuum Cleaner', quantity: 5 },
       { name: 'Mop', quantity: 10 },
     ],
@@ -191,7 +191,7 @@ export const agencies = [
     headContactNumber: '890-123-4567',
     expertise: 'Security Services',
     address: '321 Theta Blvd, Safe Town, ST 89012',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Surveillance Cameras', quantity: 10 },
       { name: 'Alarm Systems', quantity: 5 },
     ],
@@ -218,7 +218,7 @@ export const agencies = [
     headContactNumber: '901-234-5678',
     expertise: 'Catering Services',
     address: '987 Iota St, Food City, ST 90123',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Cooking Equipment', quantity: 5 },
       { name: 'Serving Dishes', quantity: 20 },
     ],
@@ -241,7 +241,7 @@ export const agencies = [
     headContactNumber: '012-345-6789',
     expertise: 'Event Planning',
     address: '654 Kappa Ave, Event City, ST 01234',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Decorations', quantity: 50 },
       { name: 'Sound System', quantity: 2 },
     ],
@@ -268,7 +268,7 @@ export const agencies = [
     headContactNumber: '123-456-7891',
     expertise: 'IT Services',
     address: '321 Lambda St, Tech City, ST 12346',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Laptops', quantity: 10 },
       { name: 'Servers', quantity: 5 },
     ],
@@ -295,7 +295,7 @@ export const agencies = [
     headContactNumber: '234-567-8902',
     expertise: 'Marketing',
     address: '654 Mu Ave, Market Town, ST 23457',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Marketing Software', quantity: 3 },
       { name: 'Analytics Tools', quantity: 2 },
     ],
@@ -322,7 +322,7 @@ export const agencies = [
     headContactNumber: '345-678-9013',
     expertise: 'Graphic Design',
     address: '987 Nu Blvd, Design City, ST 34568',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Design Software', quantity: 5 },
       { name: 'Graphic Tablets', quantity: 3 },
     ],
@@ -349,7 +349,7 @@ export const agencies = [
     headContactNumber: '456-789-0124',
     expertise: 'Construction Management',
     address: '654 Xi St, Build City, ST 45679',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Project Management Software', quantity: 2 },
       { name: 'Construction Tools', quantity: 10 },
     ],
@@ -376,7 +376,7 @@ export const agencies = [
     headContactNumber: '567-890-1235',
     expertise: 'Logistics',
     address: '321 Omicron Rd, Ship City, ST 56780',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Delivery Trucks', quantity: 5 },
       { name: 'Warehouse Equipment', quantity: 10 },
     ],
@@ -403,7 +403,7 @@ export const agencies = [
     headContactNumber: '678-901-2346',
     expertise: 'Photography',
     address: '456 Pi St, Photo City, ST 67891',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Cameras', quantity: 5 },
       { name: 'Lighting Equipment', quantity: 3 },
     ],
@@ -430,7 +430,7 @@ export const agencies = [
     headContactNumber: '789-012-3457',
     expertise: 'Web Development',
     address: '321 Rho Blvd, Web City, ST 78902',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Development Software', quantity: 5 },
       { name: 'Testing Tools', quantity: 3 },
     ],
@@ -457,7 +457,7 @@ export const agencies = [
     headContactNumber: '890-123-4568',
     expertise: 'Fitness Training',
     address: '654 Sigma St, Fit City, ST 89013',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Weights', quantity: 20 },
       { name: 'Yoga Mats', quantity: 15 },
     ],
@@ -484,7 +484,7 @@ export const agencies = [
     headContactNumber: '901-234-5679',
     expertise: 'Travel Services',
     address: '987 Tau Ave, Travel City, ST 90124',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Booking Software', quantity: 2 },
       { name: 'Travel Guides', quantity: 50 },
     ],
@@ -511,7 +511,7 @@ export const agencies = [
     headContactNumber: '012-345-6780',
     expertise: 'Home Services',
     address: '321 Upsilon Rd, Home City, ST 01235',
-    equipmentRequirements: [
+    equipmentDetails: [
       { name: 'Cleaning Supplies', quantity: 30 },
       { name: 'Repair Tools', quantity: 15 },
     ],

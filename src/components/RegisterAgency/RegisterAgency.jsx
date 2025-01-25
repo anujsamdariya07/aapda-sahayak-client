@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import EquipmentForm from '../EquipmentForm/EquipmentForm';
 import WorkforceForm from '../WorkforceForm/WorkforceForm';
-import AccountDetails from '../AccountDetails';
+import AccountDetails from '../AccountDetails/AccountDetails';
 
 const RegisterAgency = () => {
   const [equipmentData, setEquipmentData] = useState([]);

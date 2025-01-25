@@ -16,9 +16,10 @@ import ResourceAllocation from './ResourceAllocation/ResourceAllocation';
 import UserHelp from './UserHelp/UserHelp';
 import EquipmentForm from './EquipmentForm/EquipmentForm';
 import WorkforceForm from './WorkforceForm/WorkforceForm';
-import AccountDetails from './AccountDetails';
+import AccountDetails from './AccountDetails/AccountDetails'
 import RaiseEmergency from './RaiseEmergency/RaiseEmergency';
 import AgencyDisplayBox from './AgencyDisplayBox/AgencyDisplayBox';
+import AgencyDetails from './AgencyDetails/AgencyDetails';
 
 export {
   Layout,
@@ -41,5 +42,6 @@ export {
   WorkforceForm,
   AccountDetails,
   RaiseEmergency,
-  AgencyDisplayBox
+  AgencyDisplayBox,
+  AgencyDetails,
 };
