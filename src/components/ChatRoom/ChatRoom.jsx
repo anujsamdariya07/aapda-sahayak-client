@@ -1,6 +1,7 @@
 import React from 'react'
 import MapComponent from '../../maps/Map/Map';
 import { useLocation, useParams } from 'react-router-dom';
+import DirectionsMap from '../../maps/DirectionsMap/DirectionsMap';
 
 const ChatRoom = () => {  
   const location = useLocation()
@@ -12,13 +13,28 @@ const ChatRoom = () => {
   
   return (
     <div className='min-h-full flex p-5 gap-3 items-center justify-between text-[#173B45] bg-[#F8EDED]'>
-      <MapComponent
+      {/* <MapComponent
         apiKey={import.meta.env.VITE_YOUR_API_KEY}
         center={center}
         zoom={17}
         width={'60vw'}
         height={'80vh'}
         caller={'home'}
+      /> */}
+      {/* <DirectionsMap
+        apiKey={import.meta.env.VITE_YOUR_API_KEY}
+        height={'80vh'}
+        width={'60vw'}
+        origin={center}
+        zoom={17}
+      /> */}
+      <DirectionsMap
+        apiKey={import.meta.env.VITE_YOUR_API_KEY}
+        origin={center} // Example: Delhi
+        destination={{ lat: 23.249390860768585, lng: 77.39628049800153 }} // Example: Mumbai
+        zoom={6}
+        height={'80vh'}
+        width={'60vw'}
       />
 
       <div className='w-[35vw] h-[80vh] rounded-xl bg-[#F8EDED] text-[#173B45] flex flex-col m-5 gap-10 border-[#173B45] border-2'>
